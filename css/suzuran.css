@@ -14,10 +14,7 @@
        url(../fonts/jasmine.ttf) format("truetype"), /* Safari, Android, iOS */
        url(../fonts/jasmine.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
 }
-@font-face {
-  font-family: 'A1';
-  src: url('../fonts/A1.otf'); /* Safari, Android, iOS */
-}
+
 h1,
 h2,
 h3,
