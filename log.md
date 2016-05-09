@@ -159,3 +159,21 @@ padding改成margin
 小裝置圖片上緣margin++
 所有圖都畫完啦
 寬度限制為900
+
+#160509-1
+網域註冊好了
+
+	1. 不要用url轉（原始網址會跑出來）及遮罩轉（會嵌在iframe，bootstrap格式會跑掉）
+	2. 放棄http://tsaihw.github.io/web03，因為DNS只能用host name-->改成tsaihw.github.io
+	3. 主要的設定竟然是在Github。弄一個CNAME在master branch下 --> Confirm that you have created and committed yourCNAMEfile on GitHub.
+https://help.github.com/articles/setting-up-your-pages-site-repository/
+	4. 改godaddy DNS的A部分https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider
+	5. Follow your DNS provider's instructions to create two A records that point your custom domain to the following IP addresses:
+		* 192.30.252.153
+		* 192.30.252.154
+
+#160509-2
+告別web03，新增web09，web09的內容更新到tsaihw.github.io
+刪除註解刪除多餘檔案
+最後優化
+文字刪減

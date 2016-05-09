@@ -1,7 +1,5 @@
 /*!
- * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ 暖暖心理治療所版權所有
  */
 
 /*https://www.google.com/fonts/earlyaccess*/
@@ -20,26 +18,6 @@
   font-family: 'A1';
   src: url('../fonts/A1.otf'); /* Safari, Android, iOS */
 }
- /*@font-face {
-   font-family: 'jasmine';
-   font-style: normal;
-   font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot);
-   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot?#iefix) format('embedded-opentype'),
-        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.ttf) format('truetype');
- }*/
- /*@font-face {
-   font-family: 'cwTeXHei';
-   font-style: normal;
-   font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
-   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
-        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
-      }*/
 h1,
 h2,
 h3,
@@ -53,7 +31,7 @@ h6 {
 .container{
   max-width:900px
 }
-/*網站顏色底色沒調好會露餡*/
+/*網站底色*/
 body,
 html {
   width: 100%;
@@ -96,7 +74,6 @@ ul.B{
   line-height: 1.6;
   list-style-type: disc;
 }
-
 .img-responsive{
   max-width: 100%;
   height: auto;
@@ -183,11 +160,11 @@ ul.B{
       font-weight: 400;
 }
 .banner-content{
-      font:18px "Microsoft JhengHei",  sans-serif;
+      font:14px "Microsoft JhengHei",  sans-serif;
       font-weight: 400;
       letter-spacing: 0.5px;
       margin:0 0 10px 2px;
-      line-height: 1.6;
+      line-height: 1.5;
       text-align: left
 }
 .footer
@@ -197,34 +174,11 @@ ul.B{
 }
 .copyright {
     font-family: "Microsoft JhengHei",serif;
-    font-size: 1.0em;
+    font-size: 12px;
     color: #888888;
     padding-top: 8px;
     padding-bottom: 2px;
 }
-/* navbar底色=小裝置
-.navbar-default {
-  background-color: #FFF6F2;
-  padding: 7px 0 1px 0;
-  border-top: 2px solid #151515;
-  border-bottom: 1px solid #f0e3df;
-}*/
-/* navbar brand字型=小裝置
-.navbar-default .navbar-brand {
-  color: #222222;
-  font-size: 1.9em;
-  font-family: "jasmine",serif;
-}*/
-/* navbar brand與滑鼠互動字型
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: #222222;
-}*/
-/* 小裝置拉下的邊界顏色-->沒影響啦XD
-.navbar-default .navbar-collapse {
-}*/
 /* 小裝置按鈕 */
 .navbar-default .navbar-toggle {
   margin: 0px 25px 0px 0px;
@@ -232,11 +186,11 @@ ul.B{
   background-color: #CCC4C1;
   border-color: none;
 }
-/* 小裝置按鈕的橫線 */
+/* 小裝置按鈕橫線 */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #f4f4f4;
 }
-/* 小裝置按鈕游標盤旋而過 */
+/* 小裝置按鈕反應游標*/
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #B7B1AE;
@@ -252,7 +206,7 @@ ul.B{
   font-size: 1.1em;
   color: #626262;
 }
-/* navbar list滑鼠經過上空時的顏色 */
+/* navbar list滑鼠經過時顏色 */
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   color: #222222;
@@ -280,11 +234,6 @@ ul.B{
   border-top: 2px solid #151515;
   border-bottom: 1px solid #f0e3df;
 }
-/* 滑鼠捲動後navbar顏色&大小
-  .navbar-default.navbar-shrink {
-    background-color: rgba(255, 246, 242, 0.2);
-  }*/
-/* 滑鼠捲動前brand顏色大小 */
 
 .navbar-default .navbar-brand {
   font-family: "jasmine",serif;
@@ -292,16 +241,10 @@ ul.B{
   color: #222222;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.2),
                0px -2px 1px rgba(255,255,255,0.2);
-  /* font-weight:bold;粗體看起來很不秀麗*/
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* 滑鼠捲動後brand顏色大小
-.navbar-default.navbar-shrink .navbar-brand {
-    font-size: 2.3em;
-    color: #666666;
-  }*/
 .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
 }
@@ -365,7 +308,7 @@ body {
 	}
   .navbar-default .navbar-brand {
     font-size: 1.7em;
-  }/*小裝置品牌名稱變小+ padding top=4px才能置中*/
+  }/*小裝置品牌名稱變小*/
   .navbar-nav > li > a, .navbar-brand {
     padding-top:7px !important;
     padding-bottom:0 !important;
