@@ -1,0 +1,374 @@
+/*!
+ * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/*https://www.google.com/fonts/earlyaccess*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+@font-face {
+  font-family: 'jasmine';
+  src: url(../fonts/jasmine.eot); /* IE9 Compat Modes */
+  src: url(../fonts/jasmine.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(../fonts/jasmine.woff) format("woff"), /* Modern Browsers */
+       url(../fonts/jasmine.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(../fonts/jasmine.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'A1';
+  src: url('../fonts/A1.otf'); /* Safari, Android, iOS */
+}
+ /*@font-face {
+   font-family: 'jasmine';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.ttf) format('truetype');
+ }*/
+ /*@font-face {
+   font-family: 'cwTeXHei';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
+      }*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "cwtexming",serif;
+  font-weight: 400;
+}
+/*限制寬度*/
+.container{
+  max-width:1024px
+}
+/*網站顏色底色沒調好會露餡*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding-top: 35px;
+  background-color:#fff9f6;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+blockquote {
+  padding: 0px 0px 0px 30px;
+  margin: 20px 0px 20px 0px;
+  border-left: 3px solid #eee; }
+}
+p.large {
+  font-size: 16px;
+}
+a {
+  color: #888888;
+  text-decoration:none;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #afafaf;
+  text-decoration:none;
+}
+ul.A{
+  letter-spacing: 0.3px;
+  margin:10px 0px 0px 0px;
+  line-height: 1.5;
+  list-style-type: none;
+}
+ul.B{
+  letter-spacing: 0.3px;
+  margin:10px 0 0 5px;
+  line-height: 1.6;
+  list-style-type: disc;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+  vertical-align:middle;
+  border:0;
+  PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 70px; PADDING-BOTTOM: 20px
+}
+.img-responsive-tall{
+  max-width: 100%;
+  height: auto;
+  vertical-align:middle;
+  border:0;
+  PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 0px; PADDING-BOTTOM: 20px
+}
+.img-responsive-short{
+  max-width: 100%;
+  height: auto;
+  vertical-align:middle;
+  border:0;
+  PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 120px; PADDING-BOTTOM: 20px
+}
+
+@media (max-width: 978px) {
+    .img-responsive{
+      padding:0;
+      margin:0;
+    }
+    .img-responsive-tall {
+      max-width: 100%;
+      padding:0;
+      margin:0;
+    }
+    .img-responsive-short {
+      padding:0;
+      margin:0;}
+    }
+
+
+
+.section-heading{
+  font-family: "cwtexming",serif;
+  font-weight: 400;
+}
+.list-heading{
+  font:18px "Microsoft JhengHei",  sans-serif;
+  color: #000000;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+.content {
+  font:18px "Microsoft JhengHei",  sans-serif;
+  color: #222222;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin:0 0 0 0px;
+  line-height: 1.5;
+}
+.content-section-a1 {
+      padding: 20px 0px 50px 0px;
+      background-color: #fff9f6;
+}
+.content-section-a {
+      padding: 50px 0px 50px 0px;
+      background-color: #fff9f6;
+}
+.content-section-b {
+      padding: 50px 0px 50px 0px;
+      border-top: 2px solid #f0e3df;
+      border-bottom: 2px solid #f0e3df;
+      background-color: #fff6f3;
+}
+.section-heading-spacer {
+      float: left;
+      width: 10px;
+      border-top: 0px solid #e7e7e7;
+}
+.banner{
+      padding: 5px 0px 5px 0px;
+      border-top: 1px solid #151515;
+      background-color: #FFF6F2;
+}
+.banner-head{
+      font-family: "jasmine",serif;
+      font-weight: 400;
+}
+.banner-content{
+      font:18px "Microsoft JhengHei",  sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin:0 0 10px 2px;
+      line-height: 1.6;
+      text-align: left
+}
+.footer
+{
+      padding: 3px 0px 1px 0px;
+      background-color: #151515;
+}
+.copyright {
+    font-family: "Microsoft JhengHei",serif;
+    font-size: 1.0em;
+    color: #888888;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+/* navbar底色=小裝置
+.navbar-default {
+  background-color: #FFF6F2;
+  padding: 7px 0 1px 0;
+  border-top: 2px solid #151515;
+  border-bottom: 1px solid #f0e3df;
+}*/
+/* navbar brand字型=小裝置
+.navbar-default .navbar-brand {
+  color: #222222;
+  font-size: 1.9em;
+  font-family: "jasmine",serif;
+}*/
+/* navbar brand與滑鼠互動字型
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #222222;
+}*/
+/* 小裝置拉下的邊界顏色-->沒影響啦XD
+.navbar-default .navbar-collapse {
+}*/
+/* 小裝置按鈕 */
+.navbar-default .navbar-toggle {
+  margin: 0px 25px 0px 0px;
+  padding:6 7 6 7;
+  background-color: #CCC4C1;
+  border-color: none;
+}
+/* 小裝置按鈕的橫線 */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f4f4f4;
+}
+/* 小裝置按鈕游標盤旋而過 */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #B7B1AE;
+}
+
+/******************* navbar list*********************/
+/* navbar list字型顏色（包括橫列選單+下拉選單）=所有裝置*/
+.navbar-default .nav li a {
+  font-family: "Microsoft JhengHei",  sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 10px 10px 5px 10px;
+  font-size: 1.1em;
+  color: #626262;
+}
+/* navbar list滑鼠經過上空時的顏色 */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #222222;
+  outline: none;
+}
+/* navbar list捲動時跳到的顏色 小裝置不加底線 */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #222222;
+  background-color: #FFF6F2;
+}
+/* navbar list用滑鼠選定時的顏色 */
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #222222;
+  background-color: #FFF6F2;
+}
+/* 滑鼠捲動前navbar顏色&大小 */
+.navbar-default {
+  background-color: #FFF6F2;
+  padding: 8px 0 0 0;
+  -webkit-transition: padding 0.7s;
+  -moz-transition: padding 0.7s;
+  transition: padding 0.7s;
+  border-top: 2px solid #151515;
+  border-bottom: 1px solid #f0e3df;
+}
+/* 滑鼠捲動後navbar顏色&大小
+  .navbar-default.navbar-shrink {
+    background-color: rgba(255, 246, 242, 0.2);
+  }*/
+/* 滑鼠捲動前brand顏色大小 */
+
+.navbar-default .navbar-brand {
+  font-family: "jasmine",serif;
+  font-size: 2.3em;
+  color: #222222;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2),
+               0px -2px 1px rgba(255,255,255,0.2);
+  /* font-weight:bold;粗體看起來很不秀麗*/
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* 滑鼠捲動後brand顏色大小
+.navbar-default.navbar-shrink .navbar-brand {
+    font-size: 2.3em;
+    color: #666666;
+  }*/
+.navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+}
+/* navbar list捲動時跳到的顏色 */
+.navbar-default .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #222222;
+    background-color: #FFF6F2;
+
+}
+
+/* 大螢幕設定 */
+@media (min-width: 768px) {
+.content {
+  font:18px "Microsoft JhengHei",  sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin:0 0 20px;
+  padding: 0px 0px 0px 3px;
+  line-height: 1.5;
+
+}}
+@media (min-width: 901px) {
+/* navbar list捲動時大螢幕有底線, collapse後無底線 */
+.navbar-default .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #222222;
+    background-color: #FFF6F2;
+    border-bottom: 2px solid #555555;
+}}
+@media (min-width: 768px) {
+}
+body {
+}
+@media (max-width: 900px) {
+    .navbar-header {
+    float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	  }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+	  }
+	.navbar-nav>li {
+        float: none;
+        margin: 0px 0px 7.5px 0px;
+    }
+  .collapse.in{
+  		display:block !important;
+	}
+  .navbar-default .navbar-brand {
+    font-size: 1.7em;
+  }/*小裝置品牌名稱變小+ padding top=4px才能置中*/
+  .navbar-nav > li > a, .navbar-brand {
+    padding-top:7px !important;
+    padding-bottom:0 !important;
+    height: 35px;
+  }/*小裝置減低高度1*/
+  .navbar {min-height:35px !important;}/*小裝置減低高度2/
+}
