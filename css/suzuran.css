@@ -118,12 +118,31 @@ fieldset[disabled] .btn-moka.active {
   background-color: #FFF6F3;
 }
 /* 讓modal變好看 */
+
+.modal-header{
+  background-color: rgba(30,30,30,0.8);
+  border-radius: 6px 6px 0 0;
+  border-bottom: 0px solid #e5e5e5;
+}
+.modal-content{
+  background-color: rgba(30,30,30,0.8);
+  border: 0px solid #999;
+  border: 0px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+}
 .modal-body {
   height: 600px;
   overflow: auto;
+  background-color: rgba(30,30,30,0.8);
+  border-radius: 6px;
+}
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 0px solid #e5e5e5;
 }
 .modal-backdrop {
-background-color: #303030;
+background-color: rgba(29,28,27);
 }
 /* 讓modal開啟時頁面不會滑動 */
 .modal {
