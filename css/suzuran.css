@@ -71,6 +71,7 @@ ul.B{
   line-height: 1.6;
   list-style-type: disc;
 }
+/* 聯繫按鈕 */
 .btn-moka {
   color: #FFF6F3;
   background-color: #47403E;
@@ -116,7 +117,7 @@ fieldset[disabled] .btn-moka.active {
   color: #47403E;
   background-color: #FFF6F3;
 }
-/* change standard modal behavior */
+/* 讓modal變好看 */
 .modal-body {
   height: 600px;
   overflow: auto;
@@ -124,7 +125,16 @@ fieldset[disabled] .btn-moka.active {
 .modal-backdrop {
 background-color: #303030;
 }
-
+/* 讓modal開啟時頁面不會滑動 */
+.modal {
+ overflow-y: auto;
+ }
+.modal-open {
+overflow: auto;
+}
+.modal-open[style] {
+padding-right: 0px !important;
+}
 .img-responsive{
   max-width: 100%;
   height: auto;
