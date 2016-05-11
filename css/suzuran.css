@@ -71,6 +71,60 @@ ul.B{
   line-height: 1.6;
   list-style-type: disc;
 }
+.btn-moka {
+  color: #FFF6F3;
+  background-color: #47403E;
+  border-color: #FFF6F3;
+}
+
+.btn-moka:hover,
+.btn-moka:focus,
+.btn-moka:active,
+.btn-moka.active,
+.open .dropdown-toggle.btn-moka {
+  color: #FFF6F3;
+  background-color: #303030;
+  border-color: #FFF6F3;
+}
+
+.btn-moka:active,
+.btn-moka.active,
+.open .dropdown-toggle.btn-moka {
+  background-image: none;
+}
+
+.btn-moka.disabled,
+.btn-moka[disabled],
+fieldset[disabled] .btn-moka,
+.btn-moka.disabled:hover,
+.btn-moka[disabled]:hover,
+fieldset[disabled] .btn-moka:hover,
+.btn-moka.disabled:focus,
+.btn-moka[disabled]:focus,
+fieldset[disabled] .btn-moka:focus,
+.btn-moka.disabled:active,
+.btn-moka[disabled]:active,
+fieldset[disabled] .btn-moka:active,
+.btn-moka.disabled.active,
+.btn-moka[disabled].active,
+fieldset[disabled] .btn-moka.active {
+  background-color: #47403E;
+  border-color: #FFF6F3;
+}
+
+.btn-moka .badge {
+  color: #47403E;
+  background-color: #FFF6F3;
+}
+/* change standard modal behavior */
+.modal-body {
+  height: 600px;
+  overflow: auto;
+}
+.modal-backdrop {
+background-color: #303030;
+}
+
 .img-responsive{
   max-width: 100%;
   height: auto;
