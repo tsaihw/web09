@@ -73,9 +73,13 @@ ul.B{
 }
 /* 聯繫按鈕 */
 .btn-moka {
-  color: #FFF6F3;
-  background-color: #47403E;
-  border-color: #FFF6F3;
+  font:18px "Microsoft JhengHei",  sans-serif;
+  color: #ffe8df;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin:15 0 0 0px;
+  background-color: #393432;
+
 }
 
 .btn-moka:hover,
@@ -83,15 +87,15 @@ ul.B{
 .btn-moka:active,
 .btn-moka.active,
 .open .dropdown-toggle.btn-moka {
-  color: #FFF6F3;
-  background-color: #303030;
-  border-color: #FFF6F3;
+  color: #fff8f6;
+  background-color: #211f1f;
 }
-
 .btn-moka:active,
 .btn-moka.active,
 .open .dropdown-toggle.btn-moka {
-  background-image: none;
+    color: #fff8f6;
+    background-color: #211f1f;
+
 }
 
 .btn-moka.disabled,
@@ -120,20 +124,20 @@ fieldset[disabled] .btn-moka.active {
 /* 讓modal變好看 */
 
 .modal-header{
-  background-color: rgba(30,30,30,0.8);
+  background-color: rgba(40,39,38,0.7);
   border-radius: 6px 6px 0 0;
   border-bottom: 0px solid #e5e5e5;
 }
 .modal-content{
-  background-color: rgba(30,30,30,0.8);
+  background-color: rgba(40,39,38,0.7);
   border: 0px solid #999;
   border: 0px solid rgba(0, 0, 0, .2);
   border-radius: 6px;
 }
 .modal-body {
-  height: 600px;
+  height: 550px;
   overflow: auto;
-  background-color: rgba(30,30,30,0.8);
+  background-color: rgba(40,39,38,0.7);
   border-radius: 6px;
 }
 .modal-footer {
@@ -142,7 +146,7 @@ fieldset[disabled] .btn-moka.active {
   border-top: 0px solid #e5e5e5;
 }
 .modal-backdrop {
-background-color: rgba(29,28,27);
+background-color: rgba(40,39,38);
 }
 /* 讓modal開啟時頁面不會滑動 */
 .modal {

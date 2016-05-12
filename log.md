@@ -177,3 +177,11 @@ https://help.github.com/articles/setting-up-your-pages-site-repository/
 刪除註解刪除多餘檔案
 最後優化
 文字刪減
+
+#160512
+新增問卷及modal
+GH無法用php只好用google form
+.ss-q-long {
+	width:100%;
+	height:100px;
+}
