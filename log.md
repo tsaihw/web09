@@ -185,3 +185,7 @@ GH無法用php只好用google form
 	width:100%;
 	height:100px;
 }
+#160530
+新增favicon(沙發)
+#160604
+favicon=蝸牛
