@@ -189,3 +189,6 @@ GH無法用php只好用google form
 新增favicon(沙發)
 #160604
 favicon=蝸牛
+#160607
+各種favicon
+https://realfavicongenerator.net/
