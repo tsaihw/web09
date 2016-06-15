@@ -69,7 +69,7 @@ ul.B{
   letter-spacing: 0.3px;
   margin:10px 0 0 5px;
   line-height: 1.6;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 /* 聯繫按鈕 */
 .btn-moka {
